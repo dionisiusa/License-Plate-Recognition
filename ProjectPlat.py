@@ -17,7 +17,7 @@ class ImageApp(App):
 
         unsharp.file_chooser = FileChooserListView(
             filters=['*.jpg', '*.jpeg', '*.png'],
-            path="sample_images" # Edit this path if your image folder is located elsewhere.
+            path="sample-images" # Edit this path if your image folder is located elsewhere.
         )
         unsharp.layout.add_widget(unsharp.file_chooser)
 
