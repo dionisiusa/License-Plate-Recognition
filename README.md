@@ -1,2 +1,3 @@
-# License-Plate-Recognition
-License plate detection and recognition using Unsharp Masking, OpenCV, EasyOCR, and Kivy.
+# License Plate Recognition using Unsharp Masking
+
+This project implements a License Plate Recognition (LPR) system using image processing techniques. The application applies Unsharp Masking to enhance image sharpness, detects license plate regions using contour detection, and recognizes plate characters with EasyOCR. A simple GUI is built using Kivy for image selection and result visualization. The project demonstrates that Unsharp Masking can improve plate readability under certain conditions, although its performance depends on appropriate parameter selection. Penjelasan ini sesuai dengan laporan yang menyimpulkan bahwa Unsharp Masking meningkatkan keterbacaan pelat nomor dengan memperkuat kontras dan mengurangi noise, namun sensitif terhadap pemilihan parameter.
